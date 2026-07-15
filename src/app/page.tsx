@@ -3,6 +3,7 @@ import Date from '@/components/Date'
 
 import {getSortedPostsData} from '@/lib/posts'
 import Image from "next/image";
+import SudokuGame from '@/components/SudokuGame'
 
 type AllPostsData = {
   date: string
@@ -44,6 +45,9 @@ export default function Home() {
 
         <section className={'rounded-3xl border border-pink-200 bg-white/80 p-6 shadow-lg shadow-pink-100'}>
           <h2 className={'text-2xl font-semibold text-black'}>Blog</h2>
+          <div className={'mt-6'}>
+            <SudokuGame />
+          </div>
           <ul className={'mt-4 space-y-3'}>
             {allPostsData.map(({id, date, title}) => (
                 <li key={id}>
