@@ -11,7 +11,7 @@ What is your name, your favorite pokemon or something you like.
 - Mayank (helper) - Psyduck
 - Sierra (helper) - Cats
 - Mathani - Track
-- Ava - Gengar
+- Ava - Gengar -https://tech-journey-blog-52aw.vercel.app/ 
 - Samuel - Dragonair
 - Dominic - Espurr
 - Olive - Emolga
